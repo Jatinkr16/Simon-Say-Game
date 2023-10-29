@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.btn{
+    height: 150px;
+    width: 150px;
+    border: 10px solid black;
+    border-radius: 20%;
+    margin: 2.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.red{
+    background-color: #d95980;
+}
+.green{
+    background-color: #63aac0;
+}
+.yellow{
+    background-color: #f99b45;
+}
+.purple{
+    background-color: #899ff9;
+}
+
+.Gameflash{
+    background-color: white;
+}
+
+.userflash{
+    background-color: green;
+}
+
+.gameover{
+    background-color: red;
+}
+
+h3{
+    position: absolute;
+    left: 75%;
+    top: 3%;
+    font-size: 30px;
+}
